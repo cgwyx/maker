@@ -11,7 +11,7 @@
 # File Author / Maintainer: cheng gong <512543469@qq.com>
 #################################################################
 
-FROM conda/miniconda3
+FROM conda/miniconda2
 
 RUN conda update --all -y &&\
     conda config --add channels conda-forge &&\
